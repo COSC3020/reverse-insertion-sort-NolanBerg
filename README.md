@@ -24,7 +24,7 @@ iterating over the elements is reversed, the array is still sorted the same way
 some basic testing code that uses [jsverify](https://jsverify.github.io/) in
 `code.test.js`.
 
-RESOURCES USED: Originally coded in python and used ai to convert to js where function takes in array and sorts using reverse insertion sort. Below is python code I used to sort array without testing
+RESOURCES USED: Originally coded in python and used ai to convert to js where function takes in array and sorts using reverse insertion sort. Below is python code I used to sort array without testing:
 
 import random
 
@@ -69,3 +69,6 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+
+The average-case time complexity is also $\Theta(n^2) for random or arbitrary order of input elements. This is because, on average, each element needs to be compared and swapped with approximately half of the preceding elements.
