@@ -2,7 +2,6 @@ const jsc = require('jsverify');
 const { insertionSortReverse } = require('./code');
 
 const testSort = jsc.forall('array nat', function (arr) {
-    const originalArray = JSON.parse(JSON.stringify(arr));
 
     insertionSortReverse(arr);
 
