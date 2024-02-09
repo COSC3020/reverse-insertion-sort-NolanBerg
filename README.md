@@ -26,6 +26,27 @@ some basic testing code that uses [jsverify](https://jsverify.github.io/) in
 
 RESOURCES USED: Originally coded in python and used ai to convert to js where function takes in array and sorts using reverse insertion sort. Below is python code I used to sort array without testing
 
+import random
+
+def reverse_insertion_sort(arr):
+    for i in range(len(arr) - 2, -1, -1):
+        key = arr[i]
+        j = i + 1
+        while j <= len(arr) - 1 and key > arr[j]:
+            arr[j - 1] = arr[j]
+            j += 1
+        arr[j - 1] = key
+
+
+random_array = [random.randint(1, 25) for _ in range(5)]
+
+print(random_array)
+
+reverse_insertion_sort(random_array)
+
+print(random_array)
+
+
 
 
 ## Average-Case Time Complexity of Insertion Sort
