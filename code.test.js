@@ -1,5 +1,5 @@
 const jsc = require('jsverify');
-const { insertionSortReverse } = require('./code');
+const { insertionSortReverse } = require('./code.js');
 
 const testSort = jsc.forall('array nat', function (arr) {
 
