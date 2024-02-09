@@ -71,4 +71,4 @@ most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
 
 
-The average-case time complexity is also $\Theta(n^2) for random or arbitrary order of input elements. This is because, on average, each element needs to be compared and swapped with approximately half of the preceding elements.
+The average-case time complexity is also $\Theta(n^2)$ for random or arbitrary order of input elements. Each element needs to be compared and swapped with approximately half of the preceding elements.
