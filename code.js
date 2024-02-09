@@ -8,6 +8,7 @@ function insertionSortReverse(array) {
         }
         array[j - 1] = key;
     }
+    return array;
 }
 
 module.exports = { insertionSortReverse };
